@@ -1,0 +1,79 @@
+.page-content {
+    padding: 20px;
+    background-color: #F8F8FF;
+}
+
+.task-form {
+    display: flex;
+}
+
+.navigation {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 60%;
+    min-width: 320px;
+    background-color: #FFEFD5;
+    border-radius: 5px;
+}
+
+.send-task {
+    width: 60%;
+    min-width: 320px;
+    margin: 10px 0;
+}
+
+.tab-content {
+    width: 60%;
+    min-width: 320px;
+    margin: 10px 0;
+}
+
+.check {
+    display: flex;
+}
+
+.form-check-input[type=checkbox] {
+    cursor: pointer;
+}
+
+.sorting {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    border-color: #d2d2d2;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.to-do {
+    width: fit-content;
+    height: fit-content;
+    background-color: #F08080;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.completed {
+    width: fit-content;
+    height: fit-content;
+    background-color: #90EE90;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.modal-footer button {
+    width: 100%;
+}
